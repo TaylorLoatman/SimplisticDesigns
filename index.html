@@ -4,88 +4,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simplicity Interior And Realty</title>
+    <title>Interior Mobile Menu</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="CSS/update.css">
+    <link rel="stylesheet" type="text/css" href="CSS/mobileInterior.css">
     <script src="https://kit.fontawesome.com/ffc493c929.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- Start Interior Section-->
+    <div id="interior" class="container-fluid">
+        <!-- Start Interior Nav -->
+        <div id="workPlease" class="container-fluid">
 
 
-    <div id="interiorHome" class="container-fluid mt-3 pt-5">
+            <nav class="navbar navbar-expand-lg navbar-light">
 
-        <div class="container mt-5 pl-5 d-lg-none">
-            <div class="col-12 ml-2">
-                <img id="interiorLogo" src="/Images/logo2.png" class="img-fluid">
-            </div>
+                <a class="navbar-brand" id="Logo" href="#"><img src="/Images/Logo2.png" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                      
+                    <span>
+                         <i id="interiorBar" class="fas fa-bars"></i>
+                        </span>
+                    </button>
+
+                <div class="collapse navbar-collapse" id="navbarMenu">
+
+                    <li class="nav-item">
+                        <a class="item" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="item" href="interMobileAbout.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="item" href="mobilePortfolio.html">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="item" href="https://calendly.com/simplicityiandr">Consultation</a>
+                    </li>
+
+                </div>
+            </nav>
+            <img id="lineOne" src="/Images/lineOne.svg" class="img-fluid">
         </div>
 
-        <div class="container d-lg-none">
-            <div class="row mb-1 ml-3 pl-5 pb-3">
-                <div class="col-9 ml-3">
-                    <a href="interiorMobile.html" class="btn btn-success btn-lg btn-block" role="button" aria-pressed="true">INTERIOR</a>
+
+
+
+
+        <!-- End Nav Menu-->
+
+        <!-- Start Home-->
+
+
+
+        <div class="wrapper">
+
+            <div class="r1">
+                <img id="quoteStart" src="/Images/beginQuote.svg" class="img-fluid">
+            </div>
+
+            <div class="r2 d-flex justify-content-center">
+                <img id="circleIndex" src="Images/circleIndex.svg" class="img-fluid">
+                <label id="quote">A simplistic approach to exceptional interior design.</label>
+            </div>
+            <div class="r3">
+                <div>
+                    <img id="quoteEnd" src="/Images/endQuote.svg" class="img-fluid">
+                </div>
+                <div id="btn">
+                    <a href="onlineQuote.html" class="btn btn-success btn-lg btn-block" role="button" aria-pressed="true">Online Quote</a>
                 </div>
             </div>
-            <div class="row pl-5 ml-3 mt-1">
-                <div class="col-9 ml-3">
-                    <a href="realMobile.html" class="btn btn-success btn-lg btn-block" role="button" aria-pressed="true">REAL ESTATE</a>
+
+            <div class="r4">
+                <label class="text-center px-5 sideText">I<br>
+                    N<br>
+                    T<br>
+                    E<br>
+                    R<br>
+                    I<br>
+                    O<br>
+                    R<br>
+                </label>
+            </div>
+
+            <div class="r5">
+                <div id="socialTags" class="d-flex justify-content-center">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="r6">
+                <label id="scroll" class="d-flex justify-content-center"><i class="far fa-caret-square-down"></i>  Scroll Down Real Estate</label>
+            </div>
+
+            <div class="r7">
+
+            </div>
+
+            <div class="r8"></div>
+        </div>
+
+        <!-- End Home-->
+
+
+        <!-- Start Bottom Contact-->
+
+        <div id="contactBottom" class="container pt-5 mt-4 d-none">
+            <div class="row text-center text-lg-left">
+                <div class="col-12 d-lg-none">
+                    <label>E: hello@simplicityiandr.com</label>
+                </div>
+                <div class="d-none d-lg-flex col-lg-4">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+
+
+                <div class="col-12 d-lg-none">
+                    <label>P: 770.765.7658</label>
+                </div>
+                <div class="d-none d-lg-block col-lg-4"></div>
+
+                <div class="d-none d-lg-block col-lg-4">
+                    <label id="scroll"> <i class="far fa-caret-square-down"></i> Scroll Down Real Estate</label>
                 </div>
             </div>
         </div>
-
-        <div id="bottomContactMobile" class="container-fluid text-center d-lg-none">
-
-            <div class="row">
-                <div class="col-12 text-center">
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                </div>
-            </div>
-
-        </div>
-
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="/Images/logo2.png" class="img-fluid"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="aboutMeInter.html">About</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://calendly.com/leeandra">Consultation</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
+        <!-- End Bottom Contact-->
 
     </div>
+    <!-- End Interior Section-->
 
 
 
 
 
+    <!--Start of Real Estate-->
+    <div id=" realEstate " class="container-fluid ">
+        <!-- Start Real Estate Nav-->
+        <div class="container-fluid ">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand " href="# "><img src="/Images/Logo.png " class="img-fluid "></a>
+                <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarMenu2 ">
+            <span>
+                <i class="fas fa-bars "></i>
+            </span>
+        </button>
+
+                <div class="collapse navbar-collapse " id="navbarMenu2 ">
+                    <li class="nav-item">
+                        <a class="nav2" href="index.html ">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav2" href="realAboutMobile.html ">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav2" href="subscribeMobile.html ">Subscribe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav2" href="https://momoduleeand.georgiamls.com/ ">Properties</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav2" href="https://calendly.com/simplicityiandr">Consultation</a>
+                    </li>
+                </div>
+            </nav>
+            <img id="lineTwo" src="Images/lineTwo.svg">
+        </div>
+        <!-- End Real Estate Nav-->
 
 
+        <!--Start Main Content-->
+        <div class="wrapper2">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+            <div class="w1">
+                <div id="sideContact">
+                    <h6>LeeAndra Momodu</h6>
+                    <span id="theSideLabel"><u>Simplicity Interiors & Realty</u></span><br>
+                    <span id="theEmail"><i class="fal fa-envelope"></i> Leeandreare@gmail</span><br>
+                    <span id="thePhone"><i class="fas fa-phone"></i> 770.765.7658</span>
+                </div>
+            </div>
+
+            <div class="w2">
+                <img id="mainRealImg" src="/Images/mainRealImg.svg" class="img-fluid">
+            </div>
+
+
+            <div class="w3"></div>
+
+            <div class="w4">
+                <label class="text-center px-5 sideText2">R<br>
+                        E<br>
+                        A<br>
+                        L<br>
+                        T<br>
+                        Y</label>
+            </div>
+
+            <div class="w5"></div>
+
+            <div class="w6">
+            </div>
+
+            <div class="w7 pl-5">
+
+                <img src="Images/theAtlanta.png" class="img-fluid">
+                <img src="Images/palmerHouse.png" class="img-fluid" width="150px" height="100px">
+
+
+            </div>
+            <!--Links not working fix-->
+            <div class="w8 d-flex justify-content-center">
+                <a href="www.facebook.com/SimplicityInteriorsLLC" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="www.instagram.com/SimplicityIandR" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="www.linkedin.com/in/lmomodu/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="www.youtube.com/channel/UCNeKh_DmSxY4MmOUrXjG6kw?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!--End Main Content-->
+
+    <div id="bottomContact " class="container-fluid my-2 d-lg-none">
+        <div class="row text-center ">
+            <div class="col-12 ">
+                <label>E: leeandrare@gmail.com</label>
+            </div>
+            <div class="col-12 ">
+                <label>P: 770.765.7658</label>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- End of Real Estate-->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
 </body>
 
 </html>

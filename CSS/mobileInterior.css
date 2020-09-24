@@ -1,6 +1,9 @@
 body {
     padding: 0;
     margin: 0;
+}
+
+#interior {
     background: rgba(0, 0, 0, .65) url(../Images/BackgroundImg.jpg);
     background-blend-mode: darken;
     background-repeat: no-repeat;
@@ -10,15 +13,54 @@ body {
     font-weight: lighter;
 }
 
-#lineOnes {
-    color: rgb(83, 114, 91);
-    border: .1px solid rgb(87, 122, 97) !important;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.nav-item a {
+    color: #86b88f;
+}
+
+#quote,
+.far,
+#scroll,
+#about {
+    color: #ffffff !important;
+}
+
+.navbar {
+    font-weight: lighter;
+    font-size: .9rem;
+    letter-spacing: .2rem;
+    padding: .1rem .5rem !important;
+}
+
+.navbar-brand img {
+    height: 8rem;
+}
+
+#interiorBar {
+    font-size: 1.5rem;
+    color: #86b88f;
+}
+
+.nav-item {
+    text-align: center;
+    list-style: none !important;
+    padding-right: .9rem;
+}
+
+.nav-item a {
+    text-shadow: .1rem .1rem .8rem black;
+    font-size: 1.5rem !important;
+    letter-spacing: .2rem;
+}
+
+#lineOne {
+    position: absolute;
+    top: 13.5%;
 }
 
 #quote {
-    color: #ffffff;
+    text-shadow: .1rem .1rem .8rem black;
     font-size: 30px;
+    font-weight: lighter;
 }
 
 .btn-success {
@@ -26,7 +68,188 @@ body {
 }
 
 #contactBottom {
-    position: absolute;
-    bottom: 5%;
     color: #86b88f;
+    text-shadow: .1rem .1rem .8rem black;
+    font-size: 20px;
+}
+
+@media only screen and (min-device-width: 1200px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 15% 60% 15% 10%;
+        grid-auto-rows: 100px 360px;
+    }
+    .r1 {
+        border-right: .1px solid #86b88f;
+        border-bottom: 3px solid #86b88f;
+        grid-row: span 2;
+    }
+    #quoteStart {
+        position: relative;
+        left: 95%;
+        top: 5%;
+    }
+    .r2 {
+        border-right: .1px solid #86b88f;
+        border-bottom: 3px solid #86b88f;
+        grid-row: span 2;
+        text-align: center;
+    }
+    #circleIndex {
+        position: absolute;
+        left: -1%;
+        top: 25%;
+    }
+    #quote {
+        position: relative;
+        top: 35%;
+    }
+    .r3 {
+        border-right: .1px solid #86b88f;
+        border-bottom: 3px solid #86b88f;
+        grid-row: span 2;
+    }
+    #quoteEnd {
+        position: absolute;
+        top: 50%;
+        right: 20%;
+    }
+    #btn {
+        position: absolute;
+        top: 63%;
+        right: 24%;
+    }
+    .r4 {
+        border-bottom: 3px solid #86b88f;
+        grid-row: span 2;
+    }
+    .sideText {
+        font-size: 35px;
+        color: #86b88f;
+    }
+    .r5 {
+        border-right: .1px solid #86b88f;
+    }
+    #socialTags {
+        font-size: 2rem;
+        position: relative;
+        top: 30%;
+        color: #86b88f;
+        letter-spacing: 1rem;
+    }
+    .r6 {
+        border-right: .1px solid #86b88f;
+    }
+    .r7 {
+        border-right: .1px solid #86b88f;
+    }
+    #scroll {
+        position: relative;
+        top: 30%;
+        text-align: center;
+    }
+}
+
+
+/* Real Estate */
+
+.realEstate {
+    color: #000000;
+}
+
+.nav2 {
+    color: #000000 !important;
+}
+
+#mainRealImg {
+    border: .5 solid;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+}
+
+#bottomContact {
+    position: absolute;
+    font-size: 15px;
+}
+
+.w8 a {
+    color: #000000;
+}
+
+@media only screen and (min-device-width: 1200px) {
+    .wrapper2 {
+        display: grid;
+        grid-template-columns: 15% 50% 25% 10%;
+        grid-auto-rows: 100px 360px;
+    }
+    #lineTwo {
+        position: absolute;
+        top: 800px;
+    }
+    #sideContact {
+        position: relative;
+        top: 30%;
+    }
+    .w1 {
+        border-right: .5px solid #000000;
+        border-bottom: 3px solid #000000;
+        grid-row: span 2;
+    }
+    .w2 {
+        border-bottom: 3px solid #000000;
+        grid-row: span 2;
+    }
+    #mainRealImg {
+        position: relative;
+        left: 24%;
+        top: -2%;
+    }
+    .w3 {
+        border-right: .5px solid #000000;
+        border-bottom: 3px solid #000000;
+        grid-row: span 2;
+    }
+    .w4 {
+        border-bottom: 3px solid #000000;
+        grid-row: span 2;
+    }
+    .sideText2 {
+        position: relative;
+        top: 5%;
+        font-size: 35px;
+    }
+    .w5 {
+        border-right: .5px solid #000000;
+        grid-column: 1;
+    }
+    .w6 {
+        border-right: .5px solid #000000;
+    }
+    .w7 {
+        border-right: .5px solid #000000;
+    }
+    .w8 {
+        letter-spacing: .5rem;
+        font-size: 1.3rem;
+        position: relative;
+        top: 50%;
+    }
+}
+
+
+/* About Section */
+
+#about {
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+#about h1 {
+    letter-spacing: .1rem !important;
+}
+
+#aboutImg {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    border: .5px solid rgb(87, 122, 97) !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
