@@ -73,6 +73,14 @@ body {
     font-size: 20px;
 }
 
+#socialTags a {
+    color: #86b88f;
+}
+
+#scroll {
+    font-size: 1.5rem;
+}
+
 @media only screen and (min-device-width: 1200px) {
     .wrapper {
         display: grid;
@@ -236,7 +244,7 @@ body {
 }
 
 
-/* About Section */
+/* About Interior Section */
 
 #about {
     text-shadow: .1rem .1rem .8rem black;
@@ -247,9 +255,97 @@ body {
 }
 
 #aboutImg {
-    width: 50%;
+    width: 100%;
     height: auto;
     border-radius: 50%;
     border: .5px solid rgb(87, 122, 97) !important;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+@media only screen and (min-device-width: 1200px) {
+    .wrapperAbout {
+        display: grid;
+        grid-template-columns: 25% 40% 20% 15%;
+        grid-auto-rows: 100px 360px;
+    }
+    .a1 {
+        border-right: .5px solid #86b88f;
+        border-bottom: 3px solid #86b88f;
+        grid-row: span 2;
+    }
+    #aboutImg {
+        position: relative;
+        left: 30%;
+        opacity: .9;
+    }
+    .a2 {
+        border-right: .5px solid #86b88f;
+        border-bottom: 3px solid #86b88f;
+        grid-row: span 2;
+    }
+    #bodyA {
+        position: relative;
+        top: 15%;
+        left: 30%;
+        width: 600px;
+        color: #ffffff;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    #bodyA p {
+        font-size: 20px;
+    }
+    .a3 {
+        border-right: .5px solid #86b88f;
+        border-bottom: 3px solid #86b88f;
+        grid-row: span 2;
+    }
+    .a4 {
+        border-bottom: 3px solid #86b88f;
+        grid-row: span 2;
+    }
+    #aSideContact {
+        position: relative;
+        top: 30%;
+        color: #ffffff;
+    }
+    #aSideContact span {
+        font-size: 1em;
+    }
+    .a5 {
+        border-right: .5px solid #86b88f;
+    }
+    .a6 {
+        border-right: .5px solid #86b88f;
+    }
+    .a7 {
+        border-right: .5px solid #86b88f;
+    }
+}
+
+
+/* Gallery Page Interior 
+
+.wrapperGallery {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-auto-rows: 100px 360px;
+}
+
+.p1 {
+    border-right: .5px solid #86b88f;
+    border-bottom: 3px solid #86b88f;
+    grid-row: span 25;
+}
+
+.p2 {
+    border-bottom: 3px solid #86b88f;
+    grid-row: span 25;
+}
+
+.p3 {
+    border-right: .5px solid #86b88f;
+}
+
+.p4 {
+    border-right: .5px solid #86b88f;
+} */
